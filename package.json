@@ -1,0 +1,26 @@
+{
+  "name": "snake",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "snowpack",
+    "start": "servor public --reload",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "snowpack": {
+    "installOptions": {
+      "dest": "public/web_modules"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ramda": "^0.27.0"
+  },
+  "devDependencies": {
+    "servor": "^3.2.0",
+    "snowpack": "^1.6.0"
+  }
+}
